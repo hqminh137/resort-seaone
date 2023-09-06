@@ -170,6 +170,7 @@ header {
 }
 .information {
   padding: 0 100px;
+  margin-bottom: 20px;
 }
 .information__title {
   color: #1d2951;
@@ -182,6 +183,10 @@ header {
 .information__content {
   font-size: 16px;
   line-height: 1.6;
+  color: #64463c;
+}
+.information__telephone{
+  margin-bottom: 10px;
 }
 .information__telephone a {
   text-decoration: none;
@@ -189,4 +194,19 @@ header {
 }
 .information__map {
   width: 100%;
+}
+.information__register {
+  width: 350px;
+  height: auto;
+}
+.copy-right{
+  text-align: center;
+}
+.copy-right__brand{
+  color: #1d2951;
+  font-weight: 700;
+}
+.copy-right__content {
+  font-size: 14px;
+  color: #64463c;
 }
